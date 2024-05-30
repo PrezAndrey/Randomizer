@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
             Text("Randomizer")
                 .font(.largeTitle)
             Spacer()
@@ -18,7 +19,35 @@ struct ContentView: View {
             } label: {
                 RoundedRectangle(cornerRadius: 10)
                     .frame(width: 250, height: 60)
+                    .overlay {
+                        Text("Random number")
+                            .font(.largeTitle)
+                            .foregroundColor(.white)
+                    }
+            }
             
+            Button {
+                print()
+            } label: {
+                RoundedRectangle(cornerRadius: 10)
+                    .frame(width: 250, height: 60)
+                    .overlay {
+                        Text("Roll the dice")
+                            .font(.largeTitle)
+                            .foregroundColor(.white)
+                    }
+            }
+            
+            Button {
+                print()
+            } label: {
+                RoundedRectangle(cornerRadius: 10)
+                    .frame(width: 250, height: 60)
+                    .overlay {
+                        Text("Random word")
+                            .font(.largeTitle)
+                            .foregroundColor(.white)
+                    }
             }
             Spacer()
 
