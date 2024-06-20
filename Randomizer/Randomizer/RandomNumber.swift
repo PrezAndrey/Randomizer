@@ -40,23 +40,41 @@ struct RandomNumber: View {
             .foregroundColor(.blue)
             .padding(50)
             
-            Button {
-                if let res = generate(start: startValue, end: endValue) {
-                    result = "\(res)"
-                } else {
-                    result = "Fill the textfields"
-                }
-            } label: {
-                RoundedRectangle(cornerRadius: 10)
-                    .frame(width: 250, height: 60)
-                    .overlay {
-                        Text("Generate")
-                            .font(.largeTitle)
-                            .foregroundColor(.white)
+            HStack {
+                Button {
+                    if let res = generate(start: startValue, end: endValue) {
+                        result = "\(res)"
+                    } else {
+                        result = "Fill the textfields"
                     }
+                } label: {
+                    RoundedRectangle(cornerRadius: 10)
+                        .frame(width: 250, height: 60)
+                        .overlay {
+                            Text("Generate")
+                                .font(.largeTitle)
+                                .foregroundColor(.white)
+                        }
+                }
+                Button(action: {
+                    clearTextFields()
+                }, label: {
+                    Image(systemName: "xmark")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .frame(width: 60, height: 55)
+                        .cornerRadius(18)
+                        .foregroundColor(.white)
+                        .background(.blue)
+                })
             }
         }
         
+    }
+    
+    func clearTextFields() {
+        startValue = ""
+        endValue = ""
     }
     
     func generate(start: String?, end: String?) -> Int?{

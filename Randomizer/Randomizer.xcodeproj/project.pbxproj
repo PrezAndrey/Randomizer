@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		558614F72BFFD136009D6C49 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558614F62BFFD136009D6C49 /* RandomNumber.swift */; };
+		558CEF8D2C233EF100D44B32 /* RollTheDice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CEF8C2C233EF100D44B32 /* RollTheDice.swift */; };
+		558CEF8F2C24BA8500D44B32 /* HeadOrTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CEF8E2C24BA8500D44B32 /* HeadOrTail.swift */; };
+		558CEF912C24C29900D44B32 /* FortuneWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CEF902C24C29900D44B32 /* FortuneWheel.swift */; };
 		55B87B4C2BF69BC400CDC1E2 /* RandomizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87B4B2BF69BC400CDC1E2 /* RandomizerApp.swift */; };
 		55B87B4E2BF69BC400CDC1E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87B4D2BF69BC400CDC1E2 /* ContentView.swift */; };
 		55B87B502BF69BC600CDC1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B87B4F2BF69BC600CDC1E2 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 
 /* Begin PBXFileReference section */
 		558614F62BFFD136009D6C49 /* RandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
+		558CEF8C2C233EF100D44B32 /* RollTheDice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDice.swift; sourceTree = "<group>"; };
+		558CEF8E2C24BA8500D44B32 /* HeadOrTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadOrTail.swift; sourceTree = "<group>"; };
+		558CEF902C24C29900D44B32 /* FortuneWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheel.swift; sourceTree = "<group>"; };
 		55B87B482BF69BC400CDC1E2 /* Randomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B87B4B2BF69BC400CDC1E2 /* RandomizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizerApp.swift; sourceTree = "<group>"; };
 		55B87B4D2BF69BC400CDC1E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 		55B87B4A2BF69BC400CDC1E2 /* Randomizer */ = {
 			isa = PBXGroup;
 			children = (
+				558CEF902C24C29900D44B32 /* FortuneWheel.swift */,
+				558CEF8E2C24BA8500D44B32 /* HeadOrTail.swift */,
+				558CEF8C2C233EF100D44B32 /* RollTheDice.swift */,
 				558614F62BFFD136009D6C49 /* RandomNumber.swift */,
 				55B87B4B2BF69BC400CDC1E2 /* RandomizerApp.swift */,
 				55B87B4D2BF69BC400CDC1E2 /* ContentView.swift */,
@@ -143,6 +152,9 @@
 				55B87B4E2BF69BC400CDC1E2 /* ContentView.swift in Sources */,
 				55B87B4C2BF69BC400CDC1E2 /* RandomizerApp.swift in Sources */,
 				558614F72BFFD136009D6C49 /* RandomNumber.swift in Sources */,
+				558CEF912C24C29900D44B32 /* FortuneWheel.swift in Sources */,
+				558CEF8F2C24BA8500D44B32 /* HeadOrTail.swift in Sources */,
+				558CEF8D2C233EF100D44B32 /* RollTheDice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
